@@ -22,7 +22,7 @@ def poll_api():
     f.close()
 
 # Schedule the API polling task every day at 9 AM
-schedule.every().day.at('09:00').do(poll_api)
+schedule.every().day.at('09:15').do(poll_api)
 #schedule.every(1).seconds.do(poll_api)
 
 # Run the scheduler
